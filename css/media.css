@@ -1,0 +1,184 @@
+/* Media Queries */
+
+/* 992 - 1200 px */
+@media screen and (max-width: 1200px) {
+	.nav {
+		text-align: center;
+		padding-bottom: 50px;
+	}
+	.backing {
+		justify-content: center;
+		margin-top: 30px;
+	}
+	.vantage__text p {
+		max-width: 49%;
+	}
+	.capacity__foto {
+		width: 99%;
+	}
+	.nav_services .backing__link {
+		text-align: left;
+	}
+	.sidebar {
+		margin-top: 95px;
+	}
+}		
+
+/* 768 - 992 px */
+@media screen and (max-width: 992px) {
+	.menu {
+		margin-top: 20px;
+	}
+	.advantage {
+		margin-bottom: 0;
+	}
+	.more {
+		margin-top: 40px;
+	}
+	.merit {
+		margin-top: 45px;
+	}
+	.head {
+		margin-top: 46px;
+	}
+	.news{
+		align-items: center;
+	}
+	.news__header {
+		width: 100%;
+		margin-bottom: 6px;
+	}
+	.footer__logo img {
+	  	max-width: 228px;
+	}
+	.office {
+		position: relative;
+		top:0;
+	}
+	.contacts {
+		width: 100%;
+	}
+	.contacts:before {
+		display: none;
+	}
+	.contacts__view {
+		margin-right: 50px;
+	}
+}
+
+/* 576 - 768 px */
+@media screen and (max-width: 768px) {
+	.navigation {
+		padding-bottom: 17px;
+	}
+	.call {
+		margin: 0 auto;
+	}
+	.services {
+		padding-top: 19px;
+	}
+	.mission__text {
+		flex-direction: column;
+	}
+	.mission__column2 {
+		margin-top: 48px;
+	}
+	.head {
+		margin-top: 30px;
+	}
+	.data {
+		text-align: center;
+	}
+	.footer {
+		text-align: center;
+		padding-top: 40px;
+	}
+	.cooperation {
+		margin: 15px auto 27px;
+		padding-top: 0;
+	}
+	.adds{
+		margin-bottom: 28px;
+	}
+	.adds, .rights {
+		margin: 0 auto;
+	}
+	.design {
+		justify-content: center;
+		padding-top: 0;
+	}
+	.design__name {
+		text-align: left;
+	}
+	.footer .call {
+	  	margin-top: 41px;
+	}
+	.backing, .vantage__text, .vantage__item {
+		flex-direction: column;
+	}
+	.backing__font, .backing__text {
+		text-align: center;
+	}
+	.vantage__text p {
+		max-width: 540px;
+	}
+	.vantage__content {
+		margin-top: 32px;
+	}
+	.capacity__foto {
+		width: 100%;
+		margin-top: 22px;
+	}
+	.nav_services .backing__item {
+		margin-bottom: 0;
+	}
+	.interactive {
+		text-align: center;
+		margin: 0 auto;
+	}
+	.interactive__title {
+		display: block;
+		margin: 28px auto 17px;
+		max-width: 214px;
+	}
+	.contacts {
+		padding-bottom: 30px;
+	}
+	.contacts__connection {
+		flex-direction: column;
+	}
+	.contacts__view {
+		margin-bottom: 28px;
+	}
+}
+
+/* 320 - 576 px */
+@media screen and (max-width: 576px) {
+	.menu {
+		flex-direction: column;
+	}
+	.menu__item {
+		margin-top: 8px;
+	}
+	.subcat__advice {
+		text-align: center;
+	}
+	.subcat__request {
+		flex-direction: column;
+	}
+	.subcat__btn {
+		margin-bottom: 10px;
+	}
+	.subcat__caption {
+		margin: 14px auto 0;
+	}
+	.contacts__icons {
+		margin-top: 10px;
+	}
+	.contacts__icon {
+		margin-left: 0;
+		margin-right: 18px;
+	}
+	.box-modal {
+		width: 97%;
+	}
